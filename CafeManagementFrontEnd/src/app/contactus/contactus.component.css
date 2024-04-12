@@ -1,0 +1,99 @@
+.contact-page icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+   .contact-page {
+    text-align: center;
+    padding: 20px; 
+    background-image: url('/assets/menu/wallpaper.jpg');
+    width:1200px;
+    height: 1500px;
+  }
+  
+  .contact-page h1 {
+    font-size: 2rem;
+    margin-left: 30px;
+  }
+  
+  .contact-page h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .contact-page h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .contact-page h4 {
+    font-size: 1rem;
+    font-weight: bold;
+  margin-top: 160px;
+  }
+  
+  .contact-page p {
+    font-size: 1rem;
+  }
+  
+  .fade-in h3 {
+    text-align: center;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+    color: saddlebrown;
+  
+    animation: fadeIn 2s ease-in-out;
+    /* animation: scaleUp 1.5s ease-in-out; */
+    /* animation: slideInFromBottom 1.5s ease-in-out; */
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  /* @keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+  } */
+  
+  
+  
+  .social-media-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* .social-media-container p { */
+    /* font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px; */
+    /* text-decoration: underline;
+    color: rgba(255, 77, 0, 0.532); */
+  
+  /* } */
+  
+  .social-media-container a {
+    margin: 0 10px;
+    font-size: 40px;
+    /* opacity: 0.4; */
+    /* height: 17px; */
+    
+  }
+  
+  .social-media-container img {
+    height: 40px;
+    width: 40px;
+  }

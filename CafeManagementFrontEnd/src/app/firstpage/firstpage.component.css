@@ -1,0 +1,66 @@
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+   
+ /* box-sizing: border-box;*/
+  background: url('/assets/Images/bg1.jpg') center/cover fixed ;
+  backdrop-filter: blur(6px); 
+  height:100%;
+}  
+h2{
+
+  margin-left: 1000px;
+}
+h3{
+ 
+  max-width: 700px;
+  margin-left:350px;
+  color:white;
+  font-family: Helvetica Neue;
+  font-weight:bold ;
+  font-size: 30px;
+}
+
+.about-us-image {
+  align-self: flex-end;
+  padding-right: 30px;
+  right: 100px;
+}
+img{
+  max-width: 550px;
+  height: auto;
+  border-radius: 150px;
+  margin-top:50px;
+  margin-left: 450px;
+   
+}
+
+
+.menu-icon {
+  font-size: 24px; /* Adjust the size of the icon */
+  cursor: pointer; /* Change cursor to pointer on hover to indicate it's clickable */
+}
+/* div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+} */
+.men
+{ 
+  width: 35px;
+  height: 5px;
+  background-color: rgb(255, 240, 240);
+  margin: 6px 0;
+  cursor: pointer;
+  margin-left:1400px;
+}
+#main{
+  color: white;
+  margin-left: 1020px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  
+}

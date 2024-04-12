@@ -1,0 +1,27 @@
+/* .image-container img{
+    margin-top: 50px;
+    height: 470px;
+    width: 500px;
+    
+} */
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust as needed */
+      
+
+  }
+  
+  img {
+    margin: 5px;
+    max-width: 100%; /* Ensure images don't exceed container width */
+  }
+  

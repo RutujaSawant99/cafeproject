@@ -1,0 +1,364 @@
+/* .divider2 {
+  font-size: 30px; /* Adjust the font size to a smaller value 
+  display: flex;
+  align-items: center;
+  margin-left: 630px;
+  margin-right: 630px;
+   margin-bottom: 40px; 
+   margin-top: 10px; 
+  height: 30px;
+ 
+}
+
+.divider2::before,
+.divider2::after {
+  flex: 0.5; Adjust the flex value to reduce the length 
+  content: '';
+  padding: 0.5px;
+  margin: 30px;  Adjust the margin to reduce spacing 
+  height: 1.7px;
+  background-color: rgb(255, 111, 0);
+  
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side 
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+  height: 350px;
+  margin-left: 65px;
+  
+ 
+}
+
+Remove extra left and right margins, due to padding in columns 
+.row {margin: 0 -5px;
+
+
+}
+
+Clear floats after the columns 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ Style the counter cards 
+.card {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  height: 450px; /* Adjust the height as needed 
+  
+}
+
+
+Responsive columns - one column layout (vertical) on small screens 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  Add a box shadow on hover 
+  transform: scale(1.05);  Scale the card on hover 
+  transition: all 0.2s ease;  Add a smooth transition effect
+  cursor: pointer;
+  border: 3px solid #ccc;
+}*/
+.menudet{
+
+  color: rgb(255, 165, 0);
+  margin-top: 30px;
+ }
+ header{
+     margin-top: 70px;
+     margin-left: 400px;
+     font-size: 50px;
+     color: chocolate;
+ 
+ }
+ h2{
+     margin-left: 480px;
+ }
+ #past{
+     
+     background-color: chocolate;
+ }
+ 
+ #kidsbrand{
+     background-color: chocolate;
+ }
+ 
+ .roundbrand{
+    height: 250px; 
+    float: left;
+    width: 20%;
+    border: 3px solid  rgb(21, 16, 43); 
+    border-radius: 50%; 
+    margin-left: 50px;
+    box-shadow: 5px 5px 5px 5px;
+  }
+  .roundbrand img{
+    margin-top: 40px;
+    margin-left: 70px;
+  }
+  .roundbrand1{
+    height: 250px; 
+    float: left;
+    width: 20%;
+    border: 3px solid rgb(21, 16, 43); 
+    border-radius: 50%; 
+    margin-left: 150px;
+    box-shadow: 5px 5px 5px 5px;
+  }
+  .roundbrand1 img{
+    margin-top: 40px;
+    margin-left: 75px;
+  }
+  .roundbrand2{
+    height: 250px; 
+    float: left;
+    width: 20%;
+    border: 3px solid  rgb(21, 16, 43); 
+    border-radius: 50%; 
+    margin-left: 150px;
+    box-shadow: 5px 5px 5px 5px;
+  }
+  .roundbrand2 img{
+    margin-top: 40px;
+    margin-left: 75px;
+   
+  }
+
+  .container {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px; /* Add some space between each menu */
+   margin-top: 150px;
+ }
+ 
+ .vertical-menu {
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 10px;
+   width: 30%; /* Adjust the width as needed */
+ }
+ 
+ .vertical-menu h3 {
+   margin: 0;
+   padding-left: 120px;
+   border-radius: 100px;
+   background-color: chocolate;
+ }
+ 
+ .vertical-menu a {
+   display: block;
+   padding: 10px 0;
+   text-decoration: none;
+   color: black;
+   margin-left: 50px;
+ }
+ 
+ .vertical-menu a.active {
+   font-weight: bold;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .container2 {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 80px;
+   margin-left: 40px;
+ }
+ 
+ .vertical-menu1 {
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 10px;
+   width:25%; /* Adjust the width as needed */
+   margin-left: 140px;
+ }
+ 
+  .vertical-menu2 {
+ 
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 10px;
+   padding-left: 10px;
+   width:30%;
+   margin-right: 130px;
+  }
+ 
+ 
+ .vertical-menu1 h3 {
+   margin: 0;
+   padding-left: 120px;
+   border-radius: 100px;
+   background-color: chocolate;
+   
+ }
+ 
+ 
+ .vertical-menu2 h3 {
+   margin: 0;
+   padding-left: 100px;
+   margin-left: 10px;
+   border-radius: 100px;
+   background-color: chocolate;
+   margin-right: 100px;
+ 
+ }
+ 
+ .vertical-menu1 a, .vertical-menu2 a {
+   display: block;
+   padding: 10px 0;
+   text-decoration: none;
+   color: black;
+   padding-left: 40px;
+ }
+ 
+ .vertical-menu1 a.active, .vertical-menu2 a.active {
+   font-weight: bold;
+ }
+ 
+ .container3 {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 80px;
+   margin-left:450px;
+ }
+ 
+ .vertical-menu3 {
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 30px;
+   width:40%; /* Adjust the width as needed */
+ 
+ }
+ 
+ 
+ .vertical-menu3 h3 {
+   margin: 0;
+   padding-left: 80px;
+   border-radius: 100px;
+   background-color: chocolate;
+   margin-right: 40px;
+ 
+ }
+ 
+ .vertical-menu3 a{
+   display: block;
+   padding: 10px 0;
+   text-decoration: none;
+   color: black;
+   padding-left: 50px;
+ }
+ 
+ .vertical-menu3 a.active{
+   font-weight: bold;
+ }
+ 
+
+ .divider2 {
+  font-size: 30px; /* Adjust the font size to a smaller value */
+  display: flex;
+  align-items: center;
+  margin-left: 630px;
+  margin-right: 630px;
+  /* margin-bottom: 40px; */
+  /* margin-top: 10px; */
+  height: 30px;
+  
+ 
+}
+
+
+.divider2::before,
+.divider2::after {
+  flex: 0.5; /* Adjust the flex value to reduce the length */
+  content: '';
+  padding: 0.5px;
+  margin: 30px; /* Adjust the margin to reduce spacing */
+  height: 1.7px;
+  background-color: rgb(255, 111, 0);
+  
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 17%;
+  padding: 0 10px;
+  height: 350px;
+  margin-left: 65px;
+  
+ 
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -70px;
+
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  text-align: center;
+  background-color: #ffffff;
+  height: 450px; /* Adjust the height as needed */
+  margin-left:0px;
+  
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow on hover */
+  transform: scale(1.05); /* Scale the card on hover */
+  transition: all 0.2s ease; /* Add a smooth transition effect */
+  cursor: pointer;
+  border: 3px solid #ccc;
+}
